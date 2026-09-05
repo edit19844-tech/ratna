@@ -1,0 +1,6 @@
+{
+  "name": "RATAN | LIVE MATKA RESULT",
+  "description": "RATAN - India's fastest and most trusted platform for Live Satta Matka results, Kalyan Matka, Panel Charts, and Jodi predictions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
