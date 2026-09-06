@@ -1,6 +1,17 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/satta-live-sync"
+  to = "/.netlify/functions/satta-live-sync"
+  status = 200
+
+[[redirects]]
+  from = "/api/satta-chart"
+  to = "/.netlify/functions/satta-chart"
+  status = 200
 
 [[redirects]]
   from = "/*"
